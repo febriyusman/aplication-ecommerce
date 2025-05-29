@@ -20,8 +20,8 @@ class CustomerSeeder extends Seeder
             'name' => 'Admin',
             'email' => 'admin@ifump.net',
             'password' => Hash::make('password'),
-            'phone' => Carbon::now(),
-            'address' => Carbon::now()
+            'phone' => '08124554637',
+            'address' => 'klskjhejtrterfdgdgdgdfgdg'
         ]);
     }
 }

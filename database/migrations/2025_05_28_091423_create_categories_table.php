@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->ulid('id')->primary();
-            $table->string('product');
+            $table->foreignUlid('product_id')->constrained('products')->cascadeOnDelete();
             $table->string('name');
             $table->string('description');
             $table->timestamps();

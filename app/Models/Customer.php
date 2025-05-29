@@ -50,8 +50,8 @@ class Customer extends Authenticatable
             'name'=>'string',
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
-            'phone' => 'date',
-            'address' => 'date',
+            'phone' => 'string',
+            'address' => 'string',
         ];
     }
 
